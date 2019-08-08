@@ -70,7 +70,7 @@ body {
   .person:hover .image {
     border-radius: 60px; }
 
-@media (max-width: 1110px) {
+@media (max-width: 999px) {
   .people {
     width: 430px;
     grid-template-columns: repeat(2, 200px); } }
