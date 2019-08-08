@@ -94,7 +94,7 @@ body {
 
 @media (max-width: 999px) {
   .people {
-    width: 430px;
-    grid-template-columns: repeat(2, 200px); } }
+    width: 450px;
+    grid-template-columns: repeat(2, 220px); } }
 
 /*# sourceMappingURL=main.css.map */
