@@ -1,0 +1,78 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.people {
+  margin: 30px auto 0;
+  width: 890px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-row-gap: 40px;
+  grid-column-gap: 30px; }
+
+.photo {
+  position: relative; }
+  .photo .image {
+    margin: 0;
+    width: 200px;
+    border-radius: 50%; }
+  .photo .rank {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 85px;
+    right: 10px; }
+
+.details .name {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: #2f4f4f;
+  font-weight: 700; }
+
+.details .extra {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500; }
+
+.person {
+  height: 230px;
+  overflow: hidden; }
+
+.person:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  overflow: visible; }
+  .person:hover .image {
+    border-radius: 60px; }
+
+@media (max-width: 1110px) {
+  .people {
+    width: 430px;
+    grid-template-columns: repeat(2, 200px); } }
+
+/*# sourceMappingURL=main.css.map */
